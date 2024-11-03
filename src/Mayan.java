@@ -1,6 +1,8 @@
 class Mayan extends Language {
     Mayan(String languageName, int speakers) {
-        super(languageName, speakers, "Central America", "verb-object-subject");
+        super(languageName, speakers, "Central America", "verb-object-subject",
+                true, " " +
+                " ");
     }
     @Override
     public void getInfo() {
